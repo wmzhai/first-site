@@ -27,10 +27,6 @@
   float: left;
 }
 
-#main-text {
-  color : blue;
-}
-
 .main-nav {
   float: right;
 }
@@ -51,11 +47,57 @@
 }
 
 .billboard {
-  background: #999;
+  background: #333;
+  color: #fff;
   text-align: center;
   padding: 40px;
 }
 
 .billboard h2 {
   margin-top: 0;
+}
+
+.column-wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.main-col {
+  float: left;
+  width: 70%;
+}
+
+.sidebar-col {
+  float: right;
+  width: 25%;
+  background: #ccc;
+  padding: 20px 2.5%;
+}
+
+.main-footer {
+  background: #333;
+  color: #fff;
+  padding: 40px 5%;
+}
+
+.main-footer a {
+  color: #fff;
+  font-size: 12px;
+}
+
+.copyright {
+  float: left;
+}
+
+.footer-nav {
+  list-style: none;
+  float: right;
+}
+
+.footer-nav li {
+  float: left;
+}
+
+.footer-nav li + li {
+  margin-left: 10px;
 }
