@@ -1,7 +1,15 @@
-h1 {
-  color: #564363;
+
+.site-header {
+  background: #3F51B5;
+  color: #fff;
+  padding: 10px 5%;
+  box-shadow: 0 1px 3px #333;
 }
 
+.site-header h1 {
+  margin: 0;
+  font-size: 20px;
+}
 
 #main-text {
   color : blue;
